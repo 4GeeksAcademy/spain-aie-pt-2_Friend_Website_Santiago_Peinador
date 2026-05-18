@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manuel Rodriguez | Quien Soy</title>
+  <meta name="description"
+    content="Pagina personal de Manuel Rodriguez para presentarse, compartir su trayectoria y mostrar sus proyectos.">
+  <meta name="robots" content="index, follow">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "#manuel-rodriguez",
+          "name": "Manuel Rodriguez",
+          "jobTitle": "Fotografo y creador visual",
+          "description": "Fotografo especializado en paisaje y retrato ambiental, con enfoque cercano, organizado y orientado a proyectos con identidad.",
+          "image": "IMAGENES%20utilizadas/Imagen_PLace_Holder_1.png",
+          "knowsAbout": [
+            "Fotografia de paisaje",
+            "Retrato ambiental",
+            "Direccion creativa",
+            "Narrativa visual"
+          ],
+          "mainEntityOfPage": {
+            "@id": "#sitio-manuel-rodriguez"
+          }
+        },
+        {
+          "@type": "CollectionPage",
+          "@id": "#sitio-manuel-rodriguez",
+          "name": "Manuel Rodriguez | Quien Soy",
+          "inLanguage": "es",
+          "about": {
+            "@id": "#manuel-rodriguez"
+          },
+          "mainEntity": {
+            "@id": "#proyectos-destacados"
+          }
+        },
+        {
+          "@type": "ItemList",
+          "@id": "#proyectos-destacados",
+          "name": "Proyectos destacados",
+          "itemListOrder": "https://schema.org/ItemListOrderAscending",
+          "numberOfItems": 5,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "CreativeWork",
+                "name": "Horizonte Habitado",
+                "description": "Paisaje abierto con presencia humana minima para reforzar escala, silencio y horizonte.",
+                "image": "IMAGENES%20utilizadas/Proyecto%201.png",
+                "creator": {
+                  "@id": "#manuel-rodriguez"
+                },
+                "locationCreated": {
+                  "@type": "Place",
+                  "name": "Llanura lacustre del sur de Chile"
+                }
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "CreativeWork",
+                "name": "Rutas de Bruma",
+                "description": "Retrato ambiental en senderos con niebla, donde el paisaje acompana la emocion del sujeto.",
+                "image": "IMAGENES%20utilizadas/Proyecto%202.png",
+                "creator": {
+                  "@id": "#manuel-rodriguez"
+                },
+                "locationCreated": {
+                  "@type": "Place",
+                  "name": "Bosques de media montana en Cantabria"
+                }
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "CreativeWork",
+                "name": "Orilla Humana",
+                "description": "Composicion en costa y lago que mezcla lineas de horizonte con gestos cotidianos.",
+                "image": "IMAGENES%20utilizadas/Proyecto%203.png",
+                "creator": {
+                  "@id": "#manuel-rodriguez"
+                },
+                "locationCreated": {
+                  "@type": "Place",
+                  "name": "Embalse de El Atazar, Madrid"
+                }
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "CreativeWork",
+                "name": "Cumbres Cercanas",
+                "description": "Escena de montana con movimiento controlado para equilibrar aventura y calma.",
+                "image": "IMAGENES%20utilizadas/Proyecto%204.png",
+                "creator": {
+                  "@id": "#manuel-rodriguez"
+                },
+                "locationCreated": {
+                  "@type": "Place",
+                  "name": "Valles de alta cota en Sierra Nevada"
+                }
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "CreativeWork",
+                "name": "Ciudad Raiz",
+                "description": "Paisajismo urbano con presencia humana para mostrar como la rutina transforma la geometria.",
+                "image": "IMAGENES%20utilizadas/Proyecto%205.png",
+                "creator": {
+                  "@id": "#manuel-rodriguez"
+                },
+                "locationCreated": {
+                  "@type": "Place",
+                  "name": "Centro historico y corredor verde de Valencia"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#contenido-principal">Saltar al contenido principal</a>
+  <header class="site-header" aria-label="Cabecera del sitio">
+    <div class="container header-inner">
+      <a class="brand" href="#hero" aria-label="Ir al inicio">
+        <span class="brand-text">Manuel Rodriguez</span>
+      </a>
+      <nav aria-label="Navegacion principal">
+        <ul class="nav-list">
+          <li><a href="#sobre-mi"><span class="nav-icon icon-user" aria-hidden="true"></span><span>Sobre mi</span></a>
+          </li>
+          <li><a href="#trayectoria"><span class="nav-icon icon-time"
+                aria-hidden="true"></span><span>Trayectoria</span></a></li>
+          <li><a href="#proyectos"><span class="nav-icon icon-project"
+                aria-hidden="true"></span><span>Proyectos</span></a>
+          </li>
+          <li><a href="#contacto"><span class="nav-icon icon-mail" aria-hidden="true"></span><span>Contacto</span></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="contenido-principal">
+    <section id="hero" class="section section-hero" aria-labelledby="hero-title">
+      <div class="container hero-layout">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Presentacion personal</p>
+          <h1 id="hero-title">Hola, soy Manuel Rodriguez: gracias por pasar por aqui.</h1>
+          <p>Esta pagina esta hecha para que me conozcas de verdad. Soy una persona cercana, organizada y muy
+            constante: disfruto convertir ideas en proyectos reales, cuidar los detalles y trabajar con gente con la
+            que se pueda construir algo bueno y duradero.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#sobre-mi">Quien soy</a>
+            <a class="btn btn-ghost" href="#trayectoria">Mi trayectoria</a>
+          </div>
+        </div>
+        <aside class="hero-panel reveal" aria-label="Imagen principal de Manuel Rodriguez">
+          <img class="hero-image" src="IMAGENES utilizadas/Imagen_PLace_Holder_1.png" alt="Retrato de Manuel Rodriguez" loading="eager"
+            data-hover-description="Retrato principal de Manuel Rodriguez. Esta imagen representa una forma de trabajo cercana, organizada y constante, centrada en convertir ideas en proyectos reales, cuidar los detalles y construir colaboraciones con confianza y enfoque a largo plazo."
+            width="1200" height="900">
+        </aside>
+      </div>
+    </section>
+    <section id="sobre-mi" class="section section-light" aria-labelledby="sobre-mi-title">
+      <div class="container stack reveal">
+        <p class="eyebrow">Sobre mi</p>
+        <h2 id="sobre-mi-title">Un poco de mi, en confianza</h2>
+        <p>Soy Manuel Rodriguez, y si has llegado hasta aqui me alegra tenerte en este espacio. Me gusta trabajar con
+          calma, hablar claro y cuidar los detalles para que todo se sienta natural. Soy de los que cree que los
+          buenos resultados nacen cuando hay cercania, confianza y una idea bien trabajada.</p>
+        <div class="bento-grid" aria-label="Bloques para futuras imagenes o casos">
+          <article class="bento-card bento-wide">
+            <h3>Mi enfoque</h3>
+            <p>Me involucro de verdad en cada proyecto: escucho, propongo y acompanio el proceso para que te sientas
+              comodo en cada paso.</p>
+          </article>
+          <figure class="bento-card media-card" aria-label="Foto de presentacion de Manuel Rodriguez">
+            <div class="media-placeholder has-image">
+              <img src="IMAGENES utilizadas/SobreMi.png" alt="Foto de Manuel Rodriguez" loading="lazy"
+                data-hover-description="Imagen de la seccion Sobre mi. Refuerza una forma de trabajar con calma, comunicacion clara y foco en los detalles, buscando que cada proceso se sienta natural, cercano y orientado a resultados con valor real."
+                width="1200" height="900">
+            </div>
+          </figure>
+          <article class="bento-card values-card">
+            <h3>Valores personales</h3>
+            <p>Son principios que intento cuidar en cada colaboracion y en cada conversacion de trabajo:</p>
+            <ul class="values-list" aria-label="Lista de valores personales">
+              <li><span class="value-icon" aria-hidden="true">&#10003;</span><span>Cercania real para que siempre te
+                  sientas escuchado.</span></li>
+              <li><span class="value-icon" aria-hidden="true">&#10003;</span><span>Compromiso con plazos, calidad y
+                  comunicacion clara.</span></li>
+              <li><span class="value-icon" aria-hidden="true">&#10003;</span><span>Honestidad para proponer lo que
+                  realmente aporta valor.</span></li>
+              <li><span class="value-icon" aria-hidden="true">&#10003;</span><span>Mejora continua en cada proyecto,
+                  aunque parezca pequeno.</span></li>
+            </ul>
+            <div class="values-extra" aria-label="Apartado extra de valores personales">
+              <h4>Un extra que me define</h4>
+              <p>Intento que cada colaboracion sea una experiencia tranquila y clara: menos ruido, mas enfoque y un
+                resultado final del que ambos podamos sentirnos orgullosos.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section id="trayectoria" class="section" aria-labelledby="trayectoria-title">
+      <div class="container stack reveal">
+        <p class="eyebrow">Trayectoria</p>
+        <h2 id="trayectoria-title">Mi trayectoria</h2>
+        <p>Este recorrido resume mi evolucion: de los primeros aprendizajes a proyectos con mayor responsabilidad y
+          una forma de trabajo cada vez mas clara y solida.</p>
+        <div class="timeline-min" aria-label="Linea temporal profesional">
+          <article class="timeline-min-item">
+            <time class="timeline-year" datetime="2018">2018</time>
+            <div class="timeline-media">
+              <img src="IMAGENES utilizadas/Aprendiendo.png" alt="Etapa inicial de Manuel Rodriguez en fotografia" loading="lazy"
+                data-hover-description="Trayectoria 2018 - Inicio. Primera etapa en proyectos editoriales de retrato y moda, donde se consolidan las bases de composicion, narrativa visual y disciplina de trabajo que marcan el crecimiento profesional posterior."
+                width="1200" height="900">
+            </div>
+            <div class="timeline-content">
+              <h3>Inicio</h3>
+              <p>Comence en proyectos editoriales de retrato y moda, aprendiendo bases de composicion y narrativa
+                visual.</p>
+            </div>
+          </article>
+          <article class="timeline-min-item">
+            <time class="timeline-year" datetime="2022">2022</time>
+            <div class="timeline-media">
+              <img src="IMAGENES utilizadas/Colabo.png" alt="Etapa de colaboracion de Manuel Rodriguez" loading="lazy" width="1200"
+                data-hover-description="Trayectoria 2022 - Colaboracion. Momento de salto a colaboraciones reales con equipos y clientes, mejorando organizacion, comunicacion y gestion de entregas para dar mas solidez a cada proyecto."
+                height="900">
+            </div>
+            <div class="timeline-content">
+              <h3>Colaboracion</h3>
+              <p>Di el salto a colaboraciones reales, mejorando organizacion, trabajo en equipo y gestion de
+                entregas.</p>
+            </div>
+          </article>
+          <article class="timeline-min-item">
+            <time class="timeline-year" datetime="2026">2026</time>
+            <div class="timeline-media">
+              <img src="IMAGENES utilizadas/Estudio.png" alt="Etapa de consolidacion profesional de Manuel Rodriguez" loading="lazy"
+                data-hover-description="Trayectoria 2026 - Consolidacion. Etapa enfocada en crear una empresa y un estudio propio, con una propuesta centrada en calidad, orden, mejora continua y crecimiento sostenible a largo plazo."
+                width="1200" height="900">
+            </div>
+            <div class="timeline-content">
+              <h3>Consolidacion</h3>
+              <p>Estoy creando una empresa y un estudio propio, consolidando una propuesta enfocada en calidad,
+                orden y crecimiento real.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section id="proyectos" class="section section-light" aria-labelledby="proyectos-title">
+      <div class="container reveal">
+        <p class="eyebrow">Proyectos</p>
+        <h2 id="proyectos-title">Proyectos destacados</h2>
+        <p>Una seleccion de cinco proyectos donde mezclo paisajismo y presencia humana para contar historias con
+          identidad.
+        </p>
+        <div class="slider" data-slider aria-label="Carrusel de proyectos">
+          <div class="projects-split">
+            <section class="projects-images" data-slider-track aria-label="Imagenes de proyectos">
+              <article class="slide is-active" data-slide>
+                <div class="media-placeholder has-image">
+                  <img src="IMAGENES utilizadas/Proyecto 1.png" alt="Proyecto 1 - Horizonte Habitado" loading="lazy" width="1200"
+                    data-hover-description="Proyecto Horizonte Habitado. Paisaje abierto con presencia humana minima para reforzar escala, silencio y horizonte. Material usado: camara mirrorless full frame, lente 35mm y filtro ND suave con revelado natural. Ubicacion: llanura lacustre del sur de Chile."
+                    height="900">
+                </div>
+              </article>
+              <article class="slide" data-slide>
+                <div class="media-placeholder has-image">
+                  <img src="IMAGENES utilizadas/Proyecto 2.png" alt="Proyecto 2 - Rutas de Bruma" loading="lazy" width="1200"
+                    data-hover-description="Proyecto Rutas de Bruma. Retrato ambiental en senderos con niebla, donde el paisaje acompana la emocion del sujeto. Material usado: lente 50mm, tripode de carbono y captura en RAW con contraste suave. Ubicacion: bosques de media montana en Cantabria."
+                    height="900">
+                </div>
+              </article>
+              <article class="slide" data-slide>
+                <div class="media-placeholder has-image">
+                  <img src="IMAGENES utilizadas/Proyecto 3.png" alt="Proyecto 3 - Orilla Humana" loading="lazy" width="1200"
+                    data-hover-description="Proyecto Orilla Humana. Composicion en costa y lago que mezcla lineas de horizonte con gestos cotidianos. Material usado: camara APS-C, lente 24-70mm y polarizador circular con gradacion en tonos tierra. Ubicacion: orillas del embalse de El Atazar, Madrid."
+                    height="900">
+                </div>
+              </article>
+              <article class="slide" data-slide>
+                <div class="media-placeholder has-image">
+                  <img src="IMAGENES utilizadas/Proyecto 4.png" alt="Proyecto 4 - Cumbres Cercanas" loading="lazy" width="1200"
+                    data-hover-description="Proyecto Cumbres Cercanas. Escena de montana con movimiento controlado para equilibrar aventura y calma. Material usado: lente angular 24mm, disparo rapido y ajuste de balance de blancos en campo. Ubicacion: valles de alta cota en Sierra Nevada."
+                    height="900">
+                </div>
+              </article>
+              <article class="slide" data-slide>
+                <div class="media-placeholder has-image">
+                  <img src="IMAGENES utilizadas/Proyecto 5.png" alt="Proyecto 5 - Ciudad Raiz" loading="lazy" width="1200"
+                    data-hover-description="Proyecto Ciudad Raiz. Paisajismo urbano con presencia humana para mostrar como la rutina transforma la geometria. Material usado: camara compacta premium, lente 28mm y exposicion manual con contraste selectivo. Ubicacion: centro historico y corredor verde de Valencia."
+                    height="900">
+                </div>
+              </article>
+            </section>
+            <section class="projects-description" aria-live="polite" aria-label="Descripcion de proyectos">
+              <aside class="slide-meta is-active" data-slide-meta aria-label="Detalles del proyecto Horizonte Habitado">
+                <h3>Horizonte Habitado</h3>
+                <div class="slide-meta-card">
+                  <div class="meta-block">
+                    <h4>Descripcion</h4>
+                    <p>Paisaje abierto con una presencia humana minima para reforzar escala, silencio y horizonte.</p>
+                  </div>
+                  <div class="meta-block">
+                    <h4>Material usado</h4>
+                    <p>Camara mirrorless full frame, lente 35mm y filtro ND suave con revelado natural.</p>
+                  </div>
+                  <div class="meta-block">
+                    <h4>Ubicacion</h4>
+                    <p>Llanura lacustre del sur de Chile.</p>
+                  </div>
+                </div>
+              </aside>
+              <aside class="slide-meta" data-slide-meta aria-label="Detalles del proyecto Rutas de Bruma">
+                <h3>Rutas de Bruma</h3>
+                <div class="slide-meta-card">
+                  <div class="meta-block">
+                    <h4>Descripcion</h4>
+                    <p>Retrato ambiental en senderos con niebla, donde el paisaje acompana la emocion del sujeto.</p>
+                  </div>
+                  <div class="meta-block">
+                    <h4>Material usado</h4>
+                    <p>Lente 50mm, tripode de carbono y captura en RAW con contraste suave.</p>
+                  </div>
+                  <div class="meta-block">
+                    <h4>Ubicacion</h4>
+                    <p>Bosques de media montana en Cantabria.</p>
+                  </div>
+                </div>
+              </aside>
+              <aside class="slide-meta" data-slide-meta aria-label="Detalles del proyecto Orilla Humana">
+                <h3>Orilla Humana</h3>
+                <div class="slide-meta-card">
+                  <div class="meta-block">
+                    <h4>Descripcion</h4>
+                    <p>Composicion en costa y lago que mezcla lineas de horizonte con gestos cotidianos.</p>
+                  </div>
+                  <div class="meta-block">
+                    <h4>Material usado</h4>
+                    <p>Camara APS-C, lente 24-70mm y polarizador circular con gradacion en tonos tierra.</p>
+                  </div>
+                  <div class="meta-block">
+                    <h4>Ubicacion</h4>
+                    <p>Orillas del embalse de El Atazar, Madrid.</p>
+                  </div>
+                </div>
+              </aside>
+              <aside class="slide-meta" data-slide-meta aria-label="Detalles del proyecto Cumbres Cercanas">
+                <h3>Cumbres Cercanas</h3>
+                <div class="slide-meta-card">
+                  <div class="meta-block">
+                    <h4>Descripcion</h4>
+                    <p>Escena de montana con movimiento controlado para equilibrar aventura y calma.</p>
+                  </div>
+                  <div class="meta-block">
+                    <h4>Material usado</h4>
+                    <p>Lente angular 24mm, disparo rapido y ajuste de balance de blancos en campo.</p>
+                  </div>
+                  <div class="meta-block">
+                    <h4>Ubicacion</h4>
+                    <p>Valles de alta cota en Sierra Nevada.</p>
+                  </div>
+                </div>
+              </aside>
+              <aside class="slide-meta" data-slide-meta aria-label="Detalles del proyecto Ciudad Raiz">
+                <h3>Ciudad Raiz</h3>
+                <div class="slide-meta-card">
+                  <div class="meta-block">
+                    <h4>Descripcion</h4>
+                    <p>Paisajismo urbano con presencia humana para mostrar como la rutina transforma la geometria.</p>
+                  </div>
+                  <div class="meta-block">
+                    <h4>Material usado</h4>
+                    <p>Camara compacta premium, lente 28mm y exposicion manual con contraste selectivo.</p>
+                  </div>
+                  <div class="meta-block">
+                    <h4>Ubicacion</h4>
+                    <p>Centro historico y corredor verde de Valencia.</p>
+                  </div>
+                </div>
+              </aside>
+            </section>
+          </div>
+          <div class="slider-controls">
+            <button class="slider-btn" type="button" data-slider-prev aria-label="Proyecto anterior">Anterior</button>
+            <div class="slider-dots" aria-label="Selector de diapositivas">
+              <button class="dot is-active" type="button" data-slider-dot="0" aria-label="Ir al proyecto 1"
+                aria-pressed="true"></button>
+              <button class="dot" type="button" data-slider-dot="1" aria-label="Ir al proyecto 2"
+                aria-pressed="false"></button>
+              <button class="dot" type="button" data-slider-dot="2" aria-label="Ir al proyecto 3"
+                aria-pressed="false"></button>
+              <button class="dot" type="button" data-slider-dot="3" aria-label="Ir al proyecto 4"
+                aria-pressed="false"></button>
+              <button class="dot" type="button" data-slider-dot="4" aria-label="Ir al proyecto 5"
+                aria-pressed="false"></button>
+            </div>
+            <button class="slider-btn" type="button" data-slider-next aria-label="Proyecto siguiente">Siguiente</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contacto" class="section" aria-labelledby="contacto-title">
+      <div class="container section-grid reveal">
+        <div>
+          <p class="eyebrow">Contacto</p>
+          <h2 id="contacto-title">Contacto</h2>
+          <p>Si quieres hablar conmigo, proponer una colaboracion o conocer mas sobre mi perfil, escribeme.</p>
+        </div>
+        <form class="contact-form" aria-label="Formulario de contacto">
+          <label for="nombre">Nombre</label>
+          <input id="nombre" name="nombre" type="text" placeholder="Tu nombre">
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="tu@email.com">
+
+          <label for="mensaje">Proyecto</label>
+          <textarea id="mensaje" name="mensaje" rows="4" placeholder="Cuentame lo que tienes en mente"></textarea>
+
+          <button class="btn btn-primary" type="submit">Enviar consulta</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer" aria-label="Pie de pagina">
+    <div class="container footer-top">
+      <div>
+        <h2>Referencias y colaboraciones</h2>
+        <p>Espacio para incluir personas, equipos o proyectos con los que he colaborado.</p>
+      </div>
+    </div>
+    <div class="partners-marquee" aria-label="Marcas asociadas">
+      <ul class="partners-track">
+        <li class="partner-chip"><span class="partner-logo" data-mark="LL"
+            aria-hidden="true"></span><span>LensLab</span></li>
+        <li class="partner-chip"><span class="partner-logo" data-mark="NF"
+            aria-hidden="true"></span><span>NorthFrame</span></li>
+        <li class="partner-chip"><span class="partner-logo" data-mark="SS" aria-hidden="true"></span><span>Snowlight
+            Studio</span></li>
+        <li class="partner-chip"><span class="partner-logo" data-mark="PS" aria-hidden="true"></span><span>Polar
+            Stories</span></li>
+        <li class="partner-chip"><span class="partner-logo" data-mark="UP" aria-hidden="true"></span><span>Urban
+            Portrait</span></li>
+        <li class="partner-chip"><span class="partner-logo" data-mark="AM" aria-hidden="true"></span><span>Alpine
+            Media</span></li>
+        <li class="partner-chip"><span class="partner-logo" data-mark="TH" aria-hidden="true"></span><span>Terra
+            Haze</span></li>
+        <li class="partner-chip"><span class="partner-logo" data-mark="RV"
+            aria-hidden="true"></span><span>RidgeView</span></li>
+        <li class="partner-chip"><span class="partner-logo" data-mark="OL" aria-hidden="true"></span><span>Oakline
+            Works</span></li>
+        <li class="partner-chip"><span class="partner-logo" data-mark="CS"
+            aria-hidden="true"></span><span>Cloudspire</span></li>
+        <li class="partner-chip" aria-hidden="true"><span class="partner-logo"
+            data-mark="LL"></span><span>LensLab</span></li>
+        <li class="partner-chip" aria-hidden="true"><span class="partner-logo"
+            data-mark="NF"></span><span>NorthFrame</span></li>
+        <li class="partner-chip" aria-hidden="true"><span class="partner-logo" data-mark="SS"></span><span>Snowlight
+            Studio</span></li>
+        <li class="partner-chip" aria-hidden="true"><span class="partner-logo" data-mark="PS"></span><span>Polar
+            Stories</span></li>
+        <li class="partner-chip" aria-hidden="true"><span class="partner-logo" data-mark="UP"></span><span>Urban
+            Portrait</span></li>
+        <li class="partner-chip" aria-hidden="true"><span class="partner-logo" data-mark="AM"></span><span>Alpine
+            Media</span></li>
+        <li class="partner-chip" aria-hidden="true"><span class="partner-logo" data-mark="TH"></span><span>Terra
+            Haze</span></li>
+        <li class="partner-chip" aria-hidden="true"><span class="partner-logo"
+            data-mark="RV"></span><span>RidgeView</span></li>
+        <li class="partner-chip" aria-hidden="true"><span class="partner-logo" data-mark="OL"></span><span>Oakline
+            Works</span></li>
+        <li class="partner-chip" aria-hidden="true"><span class="partner-logo"
+            data-mark="CS"></span><span>Cloudspire</span></li>
+      </ul>
+    </div>
+    <div class="container footer-bottom">
+      <p>Manuel Rodriguez - Sitio personal</p>
+    </div>
+  </footer>
+  <script src="funciones.js"></script>
+</body>
+
+</html>

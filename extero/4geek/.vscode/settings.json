@@ -1,0 +1,14 @@
+{
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "workbench.editorAssociations": {   
+        "*.md": "vscode.markdown.preview.editor"
+    },
+    "python-envs.defaultEnvManager": "ms-python.python:system"
+}
